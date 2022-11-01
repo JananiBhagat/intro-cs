@@ -17,6 +17,9 @@ void draw() {
   janani= janani-5;
   square(500, x, 50);
   x=x+2;
+  if(x==1000) {
+  x=0;
+}
   triangle(0, 0, 0, 100, q, 50);
   q=q+=2;
  
